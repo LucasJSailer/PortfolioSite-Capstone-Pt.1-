@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lucas J Sailer</title>
+    <link href="style.css" rel="stylesheet" type"text/css">
+    <link href="header.css" rel="stylesheet" type"text/css">
+    <link href="responsive-style.css" rel="stylesheet" type"text/css">
+    <script src="modernizr.custom.js"></script>
+    <script src="open_close.js"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+            <nav class="menu-full">
+                <ul class="menu-unordered-list">
+                    <li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-1">INTRO</a></li>
+                    
+                    <li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-2">ABOUT</a></li>
+                
+                    <li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-3">SERVICES</a></li>
+                    
+                    <li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-4">PORTFOLIO</a></li>
+                    
+                    <li class="menu-list"><a class="menu-list-text smoothScroll" href="#section-5">CONTACT</a></li>
+                    
+                    <li class="menu-list"><a style="color: red;" class="menu-list-text smoothScroll" href="../QlocktwoRemake/index.html">QLOCK TWO</a></li>
+                </ul>
+            </nav>
+            <nav class="menu-mobile">
+                <a onclick="dropdown()" class="menu-list-text" style="width: 100%;">
+                    MENU
+                </a>
+                <ul id="dropdown" class="menu-small-unordered-list">
+                    <li class="menu-list nav-border-bottom width-100 no-padding" style="border-top: 1px solid #666; padding-left: 0px;">
+                        <a onclick="dropdownclose()" class="menu-list-text smoothScroll" href="#section-1">INTRO</a>
+                    </li> 
+                    <li class="menu-list nav-border-bottom width-100" style="padding-left: 0px; padding-right: 0px;">
+                        <a onclick="dropdownclose()" class="menu-list-text smoothScroll" href="#section-2">ABOUT</a>
+                    </li>
+                    <li class="menu-list nav-border-bottom width-100" style="padding-left: 0px; padding-right: 0px;">
+                        <a onclick="dropdownclose()" class="menu-list-text smoothScroll" href="#section-3">SERVICES</a>
+                    </li>
+                    <li class="menu-list nav-border-bottom width-100" style="padding-left: 0px; padding-right: 0px;">
+                        <a onclick="dropdownclose()" class="menu-list-text smoothScroll" href="#section-4">PORTFOLIO</a>
+                    </li>
+                    <li class="menu-list nav-border-bottom width-100" style="padding-left: 0px; padding-right: 0px; border-bottom: 1px solid #666;">
+                        <a onclick="dropdownclose()" class="menu-list-text smoothScroll" href="#section-5">CONTACT</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+<!--- INTRO SECTION --->
+	<div id="section-1" class="section" style="text-align: center; ">
+		<img class="name-image" src="images/Name.png" alt="Lucas"/>
+		<div class="intro-text-container">
+        	<p class="text">
+            	I am a web developer. I am a designer.<br>
+                I like fun projects. I like fun people.<br>
+                I like web developing and designing<br> 
+                fun projects with fun people.
+            </p>                           
+        </div> 
+    </div>
+<!--- ABOUT SECTION --->  
+    <div id="section-2" class="section" style="text-align: center;">
+    	<h2 class="page-title">ABOUT</h2>
+		<img src="images/me.jpg" class="about-image"/>
+		<div class="about-text-container">
+        	<span class="title">Hi.</span><br>
+            <span class="text">I am a Designer / Web Developer located in Vancouver, Canada. I am a creative with a passion for design.</span>
+        </div>
+	</div>
+<!--- SERVICES SECTION ---> 
+    <div id="section-3" class="section" style="text-align:center; height:200vh;">
+        <h2 class="page-title">SERVICES</h2>
+			<div style class="services-container">
+               <!--- DESIGN SECTION --->     
+               <div class="services-section-container">
+                    <div style="margin-top:16vh;">
+                    	<span class="title">Design what you want.</span>
+						<div class="services-image-clearfix">
+                        	<div class="services-img-container">
+                            	<img class="services-img" src="images/Design-Animation.png" alt="design">
+                            </div>
+                        </div>
+                            
+                        <div class="services-text-container">
+                        	<span class="text">I like to keep it simple.<br> My goals are to focus on typography, content and conveying the message that you want to send.</span>
+                        </div>
+                   	</div>
+				</div>        
+              <!--- DEVELOPEMENT SECTION --->
+                <div class="services-section-container">
+                	<div style="margin-top:14vh;">
+                    	<span class="title">Develop what you need.</span>
+						<div class="services-image-clearfix">
+							<div class="services-img-container">
+                            	<img class="services-img" src="images/Development-Animation.png" alt="developement">
+                            </div>   
+                        </div>
+						<div class="services-text-container">
+                        	<span class="text">I'm a developer, so I know how to create your website or app to run across all devices using the latest technologies available.</span>
+                        </div>
+					</div>
+				</div>
+            </div>
+        </div>
+<!--- PORTFOLIO SECTION --->     
+    <div id="section-4" class="section ">  	
+        	<h2 class="page-title">PORTFOLIO</h2>
+        	<h2 class="portfolio-intructions">CLICK ( + ) TO EXPAND</h2>
+            <!----------------------FWC------------------------>
+        	<div class="portfolio-item-title-container">
+            	<div class="portfolio-item-title-container-inner">
+                    <a onclick="showFWC();">
+                    	<div id="expand-button-container-FWC" class="expand-button"></div>
+                    </a>
+                    <a onclick="hideFWC();">
+                    	<div style="display:none;" id="expand-button-container-FWC-1" class="close-button"></div>
+                    </a>
+                    <p class="portfolio-item-title">Fireworks Central</p>
+                </div>
+            </div>
+            <img style="display: none;" id="portfolio-item-display-container-FWC" class="portfolio-image-container" src="images/FWC.png"/>
+           	<!----------------------BDC------------------------>
+            <div class="portfolio-item-title-container">
+            	<div class="portfolio-item-title-container-inner">
+                	<a onclick="showBDC();">
+                    	<div id="expand-button-container-BDC" class="expand-button"></div>
+                    </a>
+                    <a onclick="hideBDC();">
+                    	<div style="display:none;" id="expand-button-container-BDC-1" class="close-button"></div>
+                    </a>
+                    <p class="portfolio-item-title">Brookswood Denture Clinic</p>
+                </div>
+            </div>
+            <img  style="display: none" id="portfolio-item-display-container-BDC" class="portfolio-image-container" src="images/BDC.png"/>
+            <!----------------------PP------------------------>
+            <div class="portfolio-item-title-container">
+            	<dic class="portfolio-item-title-container-inner">
+                	<a onclick="showPP();">
+                    	<div id="expand-button-container-PP" class="expand-button"></div>
+                    </a>
+                    <a onclick="hidePP();">
+                    	<div style="display:none;" id="expand-button-container-PP-1" class="close-button"></div>
+                    </a>
+                    <p class="portfolio-item-title">Panel Project</p>
+                </div>
+            <img  style="display: none" id="portfolio-item-display-container-PP" class="portfolio-image-container" src="images/PP.png"/>
+            <!----------------------CC------------------------>
+            <div class="portfolio-item-title-container">
+            	<div href="#" class="portfolio-item-title-container-inner">
+                	<a onclick="showCC();">
+                    	<div id="expand-button-container-CC" class="expand-button"></div>
+                    </a>
+                    <a onclick="hideCC();">
+                    	<div style="display:none;" id="expand-button-container-CC-1" class="close-button"></div>
+                    </a>
+                    <p class="portfolio-item-title">Copped Creations</p>
+                </div>
+            </div>
+            <img  style="display: none" id="portfolio-item-display-container-CC" class="portfolio-image-container" src="images/CC.png"/>
+            <!----------------------DM------------------------>
+            <div class="portfolio-item-title-container border-bottom">
+            	<div href="#" class="portfolio-item-title-container-inner">
+                	<a onclick="showDM();">
+                    	<div id="expand-button-container-DM" class="expand-button"></div>
+                    </a>
+                    <a onclick="hideDM();">
+                    	<div style="display:none;" id="expand-button-container-DM-1" class="close-button"></div>
+                    </a>
+                    <p class="portfolio-item-title">Daily Motive</p>
+                </div>
+            </div>
+            <img  style="display: none" id="portfolio-item-display-container-DM" class="portfolio-image-container" src="images/DM.png"/>
+            <!----------------------END------------------------>
+     	
+     </div>    
+<!--- CONTACT SECTION --->    
+    <footer id="section-5" class="section" style="border-bottom: 0px;">
+        	<h2 class="page-title" style="margin-bottom: 10vw;">CONTACT</h2>
+        	<form action="/my-handling-form-page" method="post">
+    			<div class="contact-input-container">
+        			<input class="input-container" placeholder="What's your name?" type="text" id="contact-text" required/>
+    			</div>
+    			<div class="contact-input-container">
+        			<input class="input-container" placeholder="Your email address" type="email" id="contact-text" required/>
+    			</div>
+    			<div class="contact-input-container">
+        			<textarea class="input-container-message" id="contact-text" placeholder="Your message here" required></textarea>
+    			</div class="contact-input-container">
+    
+    			<div class="button">
+        			<button  class="input-container-button" type="submit">TALK TO ME</button>
+    			</div>
+			</form>
+        </footer>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="smoothscroll.js"></script>
+<script src="toucheffects.js"></script>
+</body>
+</html>
