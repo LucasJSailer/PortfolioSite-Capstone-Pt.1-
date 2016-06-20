@@ -14,7 +14,6 @@ body {
 .section {
 	min-height: 100vh;
 	border-bottom: 1px solid #666;
-	
 	margin-top: -50px;
 	width: 75vw;
 	margin: auto;
@@ -36,7 +35,7 @@ body {
 	width: 100%;
 }
 
-.text{
+.text {
 	color: white;
 	font-family: Open Sans;
 	font-weight: 100;
@@ -45,7 +44,7 @@ body {
 	margin-top: 0px;
 }
 
-.page-title{
+.page-title {
 	color: white;
 	font-family: Open Sans;
 	font-weight: 300;
@@ -64,18 +63,18 @@ body {
 	color: white;
 	font-family: Open Sans;
 	font-weight: 300;
-	font-size:4.3vw;
+	font-size: 4.3vw;
 }
 
 /* SECTION 1 */
 
 .name-image {
 	width: 100%;
-	max-width:40vw;
+	max-width: 40vw;
 	margin-top: 20vh;
 }
 
-.intro-text-container{
+.intro-text-container {
 	text-align: center;
 	width: 40vw;
 	margin: auto;
@@ -84,29 +83,29 @@ body {
 
 /* SECTION 2 */
 
-.about-image{
-	width:15vw;
-	height:15vw;
+.about-image {
+	width: 15vw;
+	height: 15vw;
 	min-width: 170px;
     min-height: 170px;	
 	border-radius:50%;
 	text-align: center; 
-	border:1px solid white;
+	border: 1px solid white;
 	margin-top: 8vh;
 }
 
-.about-text-container{
-	width:40vw;
-	margin:auto;
+.about-text-container {
+	width: 40vw;
+	margin: auto;
 	margin-top: 5vh;
 }
 
-.about-text{
-	line-height:25px;
-	font-size:15px;
-	font-family:Open Sans;
-	font-weight:300;
-	color:white;
+.about-text {
+	line-height: 25px;
+	font-size: 15px;
+	font-family: Open Sans;
+	font-weight: 300;
+	color: white;
 }
 
 /* SECTION 3 */
@@ -164,23 +163,23 @@ body {
   }
 }
 
-.services-container{
-	width:100%;
-	margin-top:5vh;
-	margin:auto;
-	position:absolute;
-	top:0px;
+.services-container {
+	width: 100%;
+	margin-top: 5vh;
+	margin: auto;
+	position: absolute;
+	top: 0px;
 }
 
-.services-section-container{
-	width:50vw;
-	border:1px solid transparent;
-	position:relative; 
-	margin:auto;
+.services-section-container {
+	width: 50vw;
+	border: 1px solid transparent;
+	position: relative; 
+	margin: auto;
 	height: 100vh;
 }
 
-.services-image-clearfix{
+.services-image-clearfix {
 	margin: auto; 
 	width: 12vw; 
 	height: 12vw; 
@@ -190,53 +189,53 @@ body {
     min-height: 170px;
 }
 
-.services-text-container{
-	width:40vw; 
-	margin:auto;
+.services-text-container {
+	width: 40vw; 
+	margin: auto;
 }
 
-.services-img-container{
-	width:12vw;
-	height:12vw; 
+.services-img-container {
+	width: 12vw;
+	height: 12vw; 
 	overflow: hidden;
-	text-align:center;
-	z-index:2;
-	border-radius:50%;
+	text-align: center;
+	z-index: 2;
+	border-radius: 50%;
 	position: absolute;
 	min-width: 170px;
     min-height: 170px;
 	}
 
-.services-img{
-	width:100%;
+.services-img {
+	width: 100%;
 	animation: move-up 30s;
-	animation-iteration-count:infinite;
-	z-index:1;
-	overflow:hidden;
+	animation-iteration-count: infinite;
+	z-index: 1;
+	overflow: hidden;
 }
 
 /* SECTION 4 */
 
-.portfolio-item-title-container{
-	width:100%;
-	border-top:1px solid #666;
-	height:80px;
+.portfolio-item-title-container {
+	width: 100%;
+	border-top: 1px solid #666;
+	height: 80px;
 }
 
-.border-bottom{
-	border-bottom:1px solid #666;
+.border-bottom {
+	border-bottom: 1px solid #666;
 }
 
-.portfolio-item-title-container-inner{
-	width:100%;
-	margin:auto;
-	height:auto;
-	text-align:left;
-	backgorund-color:black;
-	text-decoration:none;
+.portfolio-item-title-container-inner {
+	width: 100%;
+	margin: auto;
+	height: auto;
+	text-align: left;
+	backgorund-color: black;
+	text-decoration: none;
 }
 
-.portfolio-item-title{
+.portfolio-item-title {
     padding: 0;
     color: white;
     margin-top: 0px;
@@ -248,24 +247,24 @@ body {
     line-height: 80px;
 }
 
-.portfolio-intructions{
+.portfolio-intructions {
 	margin: auto;
     padding: 0;
     color: #666;
     font-family: Open Sans;
     font-weight: 100;
     font-size: 15px;
-	line-height:20px;
-	text-align:center;
-	margin-bottom:15px;
+	line-height: 20px;
+	text-align: center;
+	margin-bottom: 15px;
 }
 
-#expand-button-container-FWC{
-	width:78px;
-	height:78px;
-	float:left;
+#expand-button-container-FWC {
+	width: 78px;
+	height: 78px;
+	float: left;
 	background-image: url("images/plus.png");
-	background-size:100% 100%;
+	background-size: 100% 100%;
 	cursor: pointer;
 	position: absolute;
 }
@@ -277,22 +276,22 @@ body {
 	cursor: pointer;
 	position: absolute;
 	background-image: url("images/plus.png");
-	background-size:100% 100%;
-}
+	background-size: 100% 100%;
+} 
 
-.close-button{
+.close-button {
 	width: 78px;
 	height: 78px;
 	float: left;
 	cursor: pointer;
 	position: absolute;
 	background-image: url("images/cross.png");
-	background-size:100% 100%;
+	background-size: 100% 100%;
 }
 
-.portfolio-image-container{
-	width:100%;
-	border-top:1px solid #666;
+.portfolio-image-container {
+	width: 100%;
+	border-top: 1px solid #666;
 }
 
 /* SECTION 5 */
@@ -311,56 +310,56 @@ body {
 	margin-bottom: 20px;
 }
 
-.input-container-message{
-	width:60vw;
-	border:1px solid white;
-	background-color:black;
-	height:60px;
-	border-radius:5px;
-	margin:auto;
-	margin-bottom:20px;
+.input-container-message {
+	width: 60vw;
+	border: 1px solid white;
+	background-color: black;
+	height: 60px;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 20px;
 }
 
-.input-container-button{
-	width:55vw;
-	border:1px solid white;
-	background-color:white;
-	height:60px;
-	border-radius:5px;
-	margin:auto;
-	margin-bottom:20px;
-	font-size:23px;
-	font-family:Open Sans;
-	font-weight:400;
-	letter-spacing:2px;
+.input-container-button {
+	width: 55vw;
+	border: 1px solid white;
+	background-color: white;
+	height: 60px;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 20px;
+	font-size: 23px;
+	font-family: Open Sans;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
 
 .button {
 	text-align: center; 
 }
 
-.input-container-button:hover{
-	border:1px solid white;
-	background-color:black;
-	color:white;
+.input-container-button:hover {
+	border: 1px solid white;
+	background-color: black;
+	color: white;
 }
 
-input, select, textarea{
+input, select, textarea {
     color: #666;
-	padding-left:10px;
-	font-size:20px;
-	font-family:Open Sans;
-	font-weight:300;
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: Open Sans;
+	font-weight: 300;
 }
 
 textarea:focus, input:focus {
     color: #666;
-	padding-left:10px;
-	font-size:20px;
-	font-family:Open Sans;
-	font-weight:300;
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: Open Sans;
+	font-weight: 300;
 }
 
-textarea{
-	line-height:60px;
+textarea {
+	line-height: 60px;
 }
