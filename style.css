@@ -8,7 +8,7 @@ body {
 
 @font-face {
 	font-family: Open Sans;
-	src: url('/font/OpenSans-Light.ttf')
+	src: url('./font/OpenSans-Light.ttf')
 }
 
 .section {
